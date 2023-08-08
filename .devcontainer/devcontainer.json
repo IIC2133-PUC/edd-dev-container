@@ -1,0 +1,25 @@
+{
+  "name": "EDD Dev Container",
+  "hostRequirements": {
+    "cpus": 1,
+    "memory": "2gb"
+  },
+  "dockerFile": "./Dockerfile",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {
+      "ppa": true,
+      "version": "os-provided"
+    },
+    "ghcr.io/devcontainers/features/github-cli:1": {
+      "version": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools"]
+    },
+    "codespaces": {
+      "openFiles": ["README.md"]
+    }
+  }
+}
