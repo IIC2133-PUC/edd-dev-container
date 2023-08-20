@@ -15,10 +15,16 @@ contenedor, en vez de correr docker unicamente para la ejecución.
 [Development Containers]: https://containers.dev/
 [Codespaces]: https://docs.github.com/en/codespaces/overview
 
-
 ## Guía
 
 Esto asume que usas VSCode.
+
+### Desarrollo local en Docker
+
+- Instala la [extensión de Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+- Inicia Docker ([instálalo](https://www.docker.com/products/docker-desktop/) si no lo tienes).
+- En el Remote Status Bar (ícono `><` de abajo a la izquierda) o en la
+  paleta de comandos corre “Reopen in Container”.
 
 ### Desarrollo en la nube con GitHub Codespaces
 
@@ -53,10 +59,3 @@ Luego podrás accesder al codespace desde:
 
 Puedes ver el [uso de codespaces aquí](https://github.com/settings/billing).
 Se estima que hay al entre 80h y 90h al mes de uso siguiendo esos consejos.
-
-## Desarrollo local en Docker
-
-- Instala la [extensión de Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
-- Inicia Docker ([instálalo](https://www.docker.com/products/docker-desktop/) si no lo tienes).
-- En el Remote Status Bar (ícono `><` de abajo a la izquierda) o en la
-  paleta de comandos corre “Reopen in Container”.
