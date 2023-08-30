@@ -11,6 +11,8 @@ En resumen, un contenedor corre un entorno virtual para correr código.
 Se diferencia de edd-docker el desarrollo completo ocurre dentro del
 contenedor, en vez de correr docker unicamente para la ejecución.
 
+![Comparación de EDD Docker y EDD DevContainer](img/compare.png)
+
 [edd-docker]: https://github.com/IIC2133-PUC/edd-docker
 [Development Containers]: https://containers.dev/
 [Codespaces]: https://docs.github.com/en/codespaces/overview
@@ -18,6 +20,11 @@ contenedor, en vez de correr docker unicamente para la ejecución.
 ## Guía
 
 Esto asume que usas VSCode.
+
+### Agregar a un repositorio
+
+Copia todo el contenido de la carpeta `.devcontainer` de este
+repositorio al que quieres crear un devcontainer.
 
 ### Desarrollo local en Docker
 
