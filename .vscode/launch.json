@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Nombre de la configuración
+      "name": "Debug C - [Nombre ejecutable]",
+      // Cambiar aquí el nombre del ejecutable
+      "program": "${workspaceFolder}/[Nombre ejecutable]",
+      // Cambiar aquí los argumentos que se le pasan al ejecutable
+      "args": [],
+
+      // Otros argumentos
+      "type": "cppdbg",
+      "request": "launch",
+      "stopAtEntry": true,
+      "cwd": "${workspaceFolder}",
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
