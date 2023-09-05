@@ -1,5 +1,10 @@
 # EDD DevContainer
 
+Cpasula de como usarlo:
+
+[![Video de Dev Containers](https://img.youtube.com/vi/Y1uj5lSATxY/0.jpg)](https://www.youtube.com/watch?v=Y1uj5lSATxY)
+
+
 Repositorio inspirado en [edd-docker], pero que usa la especificación
 de [Development Containers], para el desarrollo en contenedores.
 
