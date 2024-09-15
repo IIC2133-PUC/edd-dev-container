@@ -9,7 +9,7 @@ de [Development Containers], para el desarrollo en contenedores.
 
 Es útil cuando:
 - Tienes (o puedes instalar) Docker para crear un entorno fácilmente
-- Quieres usar un servicio en la nuve para correr código (como [Codespaces])
+- Quieres usar un servicio en la nube para correr código (como [Codespaces])
 
 En resumen, un contenedor corre un entorno virtual para correr código.
 Se diferencia de edd-docker el desarrollo completo ocurre dentro del
